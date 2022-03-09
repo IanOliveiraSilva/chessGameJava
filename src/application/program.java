@@ -35,7 +35,6 @@ public class program {
 			ChessPosition target = UI.readCHessPosition(sc);
 
 			ChessPiece capturedPiece = chessMatch.performChessMove(source, target);
-	
 			if(capturedPiece != null) {
 				captured.add(capturedPiece);
 			}
